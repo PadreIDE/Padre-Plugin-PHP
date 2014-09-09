@@ -15,7 +15,7 @@ no_index 'directory' => qw{ t xt eg share inc privinc};
 
 homepage 'http://padre.perlide.org/';
 bugtracker 'http://padre.perlide.org/';
-repository 'http://svn.perlide.org/padre/trunk/Padre-Plugin-PHP';
+repository 'https://github.com/PadreIDE/Padre-Plugin-PHP';
 
 is_padre_plugin; # authors: Install Module::Install::PadrePlugin
 use_ptar() if author_context && $^O =~/win/i; #from Module::Install::PerlTar
